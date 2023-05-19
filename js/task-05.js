@@ -1,5 +1,5 @@
-const spanOutput = document.querySelector(`#name-output`);
-const spanInput = document.querySelector(`#name-input`);
+const spanOutput = document.querySelector(`span#name-output`);
+const spanInput = document.querySelector(`input#name-input`);
 
 // function nameUpdate(name) {
 //   spanOutput.textContent = name;
