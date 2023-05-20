@@ -16,7 +16,7 @@ const images = [
 const gallery = document.querySelector(".gallery");
 const liArr = [];
 
-function galleryStyling(el) {
+function galleryStyling() {
   gallery.style.listStyle = "none";
   gallery.style.display = "flex";
   gallery.style.alignItems = "center";
