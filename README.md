@@ -1,1 +1,1 @@
-# goit-js-hw-06
+# bartoszuq.github.io/goit-js-hw-06/
