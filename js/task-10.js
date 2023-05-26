@@ -21,7 +21,6 @@ function createBoxes(amount) {
     alert("ERROR: Number cannot be higher than 100");
     throw new Error("ERROR: input number cannot be set higher than 100");
   }
-  const box = [];
   amount = numberEl.value;
   incrementSize = 30;
   for (let i = 0; i < amount; i++) {
@@ -32,7 +31,6 @@ function createBoxes(amount) {
     div.style.backgroundColor = getRandomHexColor();
     boxesEl.append(div);
   }
-  boxesEl.push(box);
 }
 
 createBtn.addEventListener("click", createBoxes);
